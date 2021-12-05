@@ -1,0 +1,5 @@
+FSharp.Core
+Newtonsoft.Json
+TaskBuilder.fs
+Azure.Messaging.ServiceBus
+Microsoft.Extensions.Hosting

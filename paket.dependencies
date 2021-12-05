@@ -1,0 +1,15 @@
+source https://api.nuget.org/v3/index.json
+storage:none
+
+nuget FSharp.Core
+nuget Newtonsoft.Json redirects:force
+nuget Saturn
+nuget Microsoft.Extensions.Hosting
+nuget Azure.Messaging.ServiceBus
+nuget TaskBuilder.fs
+
+group Build
+  source https://api.nuget.org/v3/index.json
+  nuget FAKE < 5
+  nuget Farmer
+  nuget Newtonsoft.Json
